@@ -1,0 +1,25 @@
+  <!DOCTYPE HTML>
+  <html lang="pt-br">
+	  <head>
+	  	<meta charset="UTF-8">
+	   	<link rel="stylesheet" type="text/css" href="estilo.css">
+	   	<title>My App </title>
+   </head>
+   <body>
+   <!-- pegar valor do server -->
+   	<h1>
+   	<center>
+   		<%= message %>		
+
+   	</center>
+   	</h1>
+
+   	<form action ='/login' method ='post'>
+   	login here <br>
+   	<input type ="text" name="username" placeholder ='username'><br>
+   	<input type ='password' name='password' placeholder ='password'><br>
+   	<button type ='submit'> Submit </button>
+
+   	</form>
+  </body>
+ </html>
